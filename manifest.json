@@ -3,7 +3,7 @@
 
   "name": "SpaceX Animated New Tab",
   "author": "Kristijan Rosandić",
-  "description": "Includes useful Chrome shortcuts and recently closed tabs. Scroll to change animation speed.",
+  "description": "Minimalistic & swift New Tab for all you SpaceX Fans!",
   "version": "1.0",
 
   "icons": {"128": "assets/128x128.png"},
