@@ -1,0 +1,162 @@
+@font-face {
+  font-family: Bristone-Thin;
+  src: url(assets/Bristone-Thin.ttf);
+}
+
+html, body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #001226;
+  height: 100vh;
+}
+
+#video-speed {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 100px;
+  font-family: Bristone-Thin;
+  pointer-events: none;
+  opacity: 0;
+  filter: drop-shadow(#0b5ba1 0 0 15px);
+  letter-spacing: 10px;
+}
+
+#video-speed::after {
+  content: "x";
+  font-size: 50px;
+}
+
+@keyframes show-video-speed {
+  0%, 80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+video {
+  width: 100vw;
+  pointer-events: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#header {
+  position: fixed;
+  display: flex;
+  z-index: 1;
+  top: 2vh;
+  width: 100%;
+}
+
+#header > div {
+  position: relative;
+}
+
+#recently-closed {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  max-height: 30px;
+  overflow: hidden;
+  margin-top: 3px;
+  margin-right: 30px;
+  transition: max-height 200ms;
+}
+
+#recently-closed > a {
+  padding: 0 15px 10px;
+  font-size: 16px;
+  color: #ffffffaf;
+  max-width: 20%;
+  white-space: nowrap;
+  transition: color 300ms;
+}
+
+#recently-closed > a:hover {
+  cursor: pointer;
+  color: white;
+}
+
+#recently-closed img {
+  float: left;
+  width: 24px;
+  height: 24px;
+  margin-right: 7px;
+}
+
+#recently-closed img:hover + .tab-title {
+  white-space: normal;
+}
+
+.tab-title {
+  display: block;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+#chrome-shortcuts {
+  font-family: Bristone-Thin;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+#chrome-shortcuts > a {
+  display: inline-block;
+  color: #ffffffaf;
+  border: 1px solid #ffffff36;
+  padding: 6px 25px;
+  margin-right: 15px;
+  border-radius: 4px;
+  background: linear-gradient(140deg, #80808000, #ffffff4d, #80808000);
+  background-size: 400%;
+  background-position: bottom right;
+  transition: 700ms;
+}
+
+#chrome-shortcuts > a:hover {
+  background-position: top left;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+}
+
+/* .tooltip {
+  position: absolute;
+  top: calc(100% + 30px);
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100px;
+  width: 70%;
+  background: #0000008f;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome {
+  background: #00000070;
+  box-shadow: 0 0 5px 4px white;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+} */
