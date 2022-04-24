@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "SpaceX Animated New Tab",
+  "author": "Kristijan Rosandić",
+  "description": "Simple New Tab for SpaceX Fans (with animation speed control)",
+  "version": "1.1",
+  "offline_enabled": true,
+  "icons": {
+    "128": "assets/128x128.png"
+  },
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "chrome_url_overrides": {
+    "newtab": "spacex.html"
+  }
+}
