@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@types/chrome": "^0.0.183"
+  },
+  "scripts": {
+    "ts-watch": "tsc -w",
+    "sass-watch": "sass -w --no-source-map src:dist"
+  }
+}
