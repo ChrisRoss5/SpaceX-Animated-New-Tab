@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "SpaceX Theme",
+  "author": "Kristijan Rosandić",
+  "description": "Theme for SpaceX Fans that goes with 'SpaceX Animated New Tab' extension",
+  "version": "1.0",
+  "theme": {
+    "images": {
+      "theme_frame": "images/2048x120.png",
+      "theme_toolbar": "images/2048x120-2.png",
+      "theme_ntp_background": "images/2048x1149.png"
+    },
+    "colors": {
+      "tab_text": [
+        255,
+        255,
+        255
+      ],
+      "tab_background_text": [
+        204,
+        204,
+        204
+      ],
+      "button_background": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "toolbar": "rgb(0, 18, 38)",
+      "toolbar_text": "rgba(255, 255, 255, 0.8)",
+      "toolbar_field": "rgb(0, 0, 0)",
+      "toolbar_field_text": "rgb(255, 255, 255)"
+    }
+  }
+}

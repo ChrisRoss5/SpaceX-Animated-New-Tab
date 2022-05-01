@@ -3,7 +3,8 @@
   src: url(assets/Bristone-Thin.ttf);
 }
 
-html, body {
+html,
+body {
   overflow: hidden;
   margin: 0;
   padding: 0;
@@ -37,9 +38,11 @@ body {
 }
 
 @keyframes show-video-speed {
-  0%, 80% {
+  0%,
+  80% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
   }
@@ -56,6 +59,11 @@ a {
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+* {
+  /* Firefox */
+  scrollbar-width: none;
 }
 
 #header {
@@ -79,6 +87,7 @@ a {
   margin-top: 3px;
   margin-right: 30px;
   transition: max-height 200ms;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #recently-closed > a {
