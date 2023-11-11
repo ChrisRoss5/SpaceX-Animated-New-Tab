@@ -6,8 +6,8 @@
   "version": "1.1",
   "theme": {
     "images": {
-      "theme_frame": "images/2048x1149-2.png",
-      "theme_toolbar": "images/2048x120.png",
+      "theme_frame": "images/2048x120.png",
+      "theme_toolbar": "images/2048x120-3.png",
       "theme_ntp_background": "images/2048x1149.png"
     },
     "colors": {
