@@ -3,7 +3,7 @@
   "name": "SpaceX Theme",
   "author": "Kristijan Rosandić",
   "description": "Theme for SpaceX Fans that goes with 'SpaceX Animated New Tab' extension",
-  "version": "1.1",
+  "version": "1.2",
   "theme": {
     "images": {
       "theme_frame": "images/2048x120.png",
